@@ -1,0 +1,26 @@
+{
+  "name": "github-repository-naming-convention-app",
+  "version": "1.0.0",
+  "description": "A GitHub App that sends a notification to the repository creator if a repository is created with a name not matching a set regex string",
+  "scripts": {
+    "start": "func start"
+  },
+  "author": {
+    "name": "GitHub Professional Services",
+    "email": "services@github.com",
+    "url": "https://services.github.com"
+  },
+  "contributors": [
+    {
+      "name": "Nick Nagel",
+      "email": "nicklegan@github.com",
+      "url": "https://github.com/nicklegan"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/auth-app": "^3.4.0",
+    "@octokit/rest": "^18.5.4"
+  },
+  "devDependencies": {}
+}
